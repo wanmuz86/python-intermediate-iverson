@@ -23,3 +23,13 @@ class Employee(Person):
             f"Hi, I'm {self.name} ID: {self.employee_id} from department {self.department}, "
             f"and I am {self.age} years old"
         )
+
+    # To transform an object in a Dictionary format
+    # We normally use it when building an API server (Day 5)
+    def to_dict(self):
+        return {
+            "name":self.name,
+            "age":self.age,
+            "employee_id":self.employee_id,
+            "department":self.department
+        }
