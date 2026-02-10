@@ -7,5 +7,6 @@ class SavingAccount(Account):
         self.interest_rate = interest_rate
     
     def apply_interest(self):
-        self.balance += self.balance* self.interest_rate
-        self._add_history("INTEREST",round(self.interest_rate*self.balance,2))
+        interest = self.balance* self.interest_rate
+        self.balance = self.balance+ interest
+        self._add_history("INTEREST",round(interest,2))
