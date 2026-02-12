@@ -12,7 +12,17 @@
 #         # eg: Ali
 #         print(f"Hi, I am {self.name}")
 
-from .person import Person
-class Student(Person):
-    def study(self):
-        print(f"{self.name} is studying")
+# from .person import Person
+# class Student(Person):
+#     def study(self):
+#         print(f"{self.name} is studying")
+
+# For exercise purposes we have Student that inherits School
+from .school import School
+
+class Student(School):
+
+    
+    #Initializating a instance variable/property
+    def __init__(self, name):
+        self.name = name
