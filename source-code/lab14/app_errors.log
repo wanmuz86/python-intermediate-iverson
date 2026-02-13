@@ -1,0 +1,96 @@
+$(asctime)s | ERROR | Workflow failed for input: '10,xx,30'
+Traceback (most recent call last):
+  File "/Users/wanmuz/Downloads/materials python/source-code/lab14/utils/validator.py", line 17, in parse_numbers_from_text
+    return [int(p.strip()) for p in parts]
+            ^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'xx'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/wanmuz/Downloads/materials python/source-code/lab14/main.py", line 27, in run_average_workflow
+    numbers = parse_numbers_from_text(user_text) # "1,2,3" => [1,2,3]
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmuz/Downloads/materials python/source-code/lab14/utils/validator.py", line 21, in parse_numbers_from_text
+    raise DataError("Failed to parse numbers from data source") from e
+errors.error.DataError: Failed to parse numbers from data source
+$(asctime)s | ERROR | Workflow failed for input: ''
+Traceback (most recent call last):
+  File "/Users/wanmuz/Downloads/materials python/source-code/lab14/utils/validator.py", line 17, in parse_numbers_from_text
+    return [int(p.strip()) for p in parts]
+            ^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: ''
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/wanmuz/Downloads/materials python/source-code/lab14/main.py", line 27, in run_average_workflow
+    numbers = parse_numbers_from_text(user_text) # "1,2,3" => [1,2,3]
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmuz/Downloads/materials python/source-code/lab14/utils/validator.py", line 21, in parse_numbers_from_text
+    raise DataError("Failed to parse numbers from data source") from e
+errors.error.DataError: Failed to parse numbers from data source
+$(asctime)s | ERROR | Workflow failed for input: '10,xx,30'
+Traceback (most recent call last):
+  File "/Users/wanmuz/Downloads/materials python/source-code/lab14/utils/validator.py", line 17, in parse_numbers_from_text
+    return [int(p.strip()) for p in parts]
+            ^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'xx'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/wanmuz/Downloads/materials python/source-code/lab14/main.py", line 27, in run_average_workflow
+    numbers = parse_numbers_from_text(user_text) # "1,2,3" => [1,2,3]
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmuz/Downloads/materials python/source-code/lab14/utils/validator.py", line 21, in parse_numbers_from_text
+    raise DataError("Failed to parse numbers from data source") from e
+errors.error.DataError: Failed to parse numbers from data source
+$(asctime)s | ERROR | Workflow failed for input: ''
+Traceback (most recent call last):
+  File "/Users/wanmuz/Downloads/materials python/source-code/lab14/utils/validator.py", line 17, in parse_numbers_from_text
+    return [int(p.strip()) for p in parts]
+            ^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: ''
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/wanmuz/Downloads/materials python/source-code/lab14/main.py", line 27, in run_average_workflow
+    numbers = parse_numbers_from_text(user_text) # "1,2,3" => [1,2,3]
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmuz/Downloads/materials python/source-code/lab14/utils/validator.py", line 21, in parse_numbers_from_text
+    raise DataError("Failed to parse numbers from data source") from e
+errors.error.DataError: Failed to parse numbers from data source
+$(asctime)s | ERROR | Workflow failed for input: '10,xx,30'
+Traceback (most recent call last):
+  File "/Users/wanmuz/Downloads/materials python/source-code/lab14/utils/validator.py", line 17, in parse_numbers_from_text
+    return [int(p.strip()) for p in parts]
+            ^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'xx'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/wanmuz/Downloads/materials python/source-code/lab14/main.py", line 27, in run_average_workflow
+    numbers = parse_numbers_from_text(user_text) # "1,2,3" => [1,2,3]
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmuz/Downloads/materials python/source-code/lab14/utils/validator.py", line 21, in parse_numbers_from_text
+    raise DataError("Failed to parse numbers from data source") from e
+errors.error.DataError: Failed to parse numbers from data source
+$(asctime)s | ERROR | Workflow failed for input: ''
+Traceback (most recent call last):
+  File "/Users/wanmuz/Downloads/materials python/source-code/lab14/utils/validator.py", line 17, in parse_numbers_from_text
+    return [int(p.strip()) for p in parts]
+            ^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: ''
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/wanmuz/Downloads/materials python/source-code/lab14/main.py", line 27, in run_average_workflow
+    numbers = parse_numbers_from_text(user_text) # "1,2,3" => [1,2,3]
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmuz/Downloads/materials python/source-code/lab14/utils/validator.py", line 21, in parse_numbers_from_text
+    raise DataError("Failed to parse numbers from data source") from e
+errors.error.DataError: Failed to parse numbers from data source
